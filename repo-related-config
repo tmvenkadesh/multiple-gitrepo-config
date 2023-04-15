@@ -1,0 +1,9 @@
+[user]
+email = venkadesh.m@hotmail.com
+name = venkadeshm
+
+[github]
+user = "tmvenkadesh"
+
+[core]
+sshCommand = "ssh -i ~/.ssh/id_ed_personal -o IdentitiesOnly=yes"
