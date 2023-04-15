@@ -1,5 +1,5 @@
 [includeIf "gitdir:<path to the local repository for ex for work>"]
-path = <path to the respective gitconfig file with ssh key and github user <refer one of gitconfig file>>
+path = <path to the respective gitconfig file with ssh key and github user <refer repo-related-config file>>
 
 [includeIf "gitdir:</path to the local repository for ex for personal>"]
 path = /home/venkadesh/personal_gitconfig/.gitconfig.personal
