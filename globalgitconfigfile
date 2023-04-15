@@ -15,3 +15,7 @@ path = /home/venkadesh/personal_gitconfig/.gitconfig.personal
 #	email = <common email if any of the above path not found>
 [safe]
 	directory = /media/venkadesh/venkadesh/git-personal/talkyard
+
+[core]
+# common ssh commond if any of the path is not found
+#sshCommand = "ssh -i ~/.ssh/id_ed_personal -o IdentitiesOnly=yes"
