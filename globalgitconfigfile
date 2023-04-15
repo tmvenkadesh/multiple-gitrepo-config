@@ -1,0 +1,17 @@
+[includeIf "gitdir:<path to the local repository for ex for work>"]
+path = <path to the respective gitconfig file with ssh key and github user <refer one of gitconfig file>>
+
+[includeIf "gitdir:</path to the local repository for ex for personal>"]
+path = /home/venkadesh/personal_gitconfig/.gitconfig.personal
+[cola]
+	spellcheck = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+#	name = <common config if any of the above path not found>
+#	email = <common email if any of the above path not found>
+[safe]
+	directory = /media/venkadesh/venkadesh/git-personal/talkyard
